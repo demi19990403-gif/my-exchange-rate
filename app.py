@@ -42,7 +42,6 @@ try:
     cols = st.columns(3)
     cols[0].metric("美元/人民币", f"{round(1/rates['USD'], 4)}")
     cols[1].metric("欧元/人民币", f"{round(1/rates['EUR'], 4)}")
-    cols[2].metric("港币/人民币", f"{round(1/rates['HKD'], 4)}")
 
     # 2. 详细数据表格
     st.subheader(f"💵 {amount} 元人民币的详细兑换清单")
