@@ -27,7 +27,6 @@ try:
     target_currencies = {
         "USD": "美元", "EUR": "欧元", "JPY": "日元", 
         "HKD": "港币", "GBP": "英镑", "AUD": "澳元", 
-        "KRW": "韩元", "THB": "泰铢"
     }
 
     # 数据转换逻辑
